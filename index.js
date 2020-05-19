@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const express = require('express')
 const routes = require('./routes/index')
 const path = require('path')
@@ -20,3 +22,4 @@ app.set('view engine', 'hjs')
 
 app.listen(5000)
 console.log('Server running on http://localhost:5000')
+
